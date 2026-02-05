@@ -3,6 +3,7 @@ import streamlit as st
 import webbrowser
 import pandas as pd
 from datetime import datetime 
+import openai
 
 # Lendo o arquivo e filtrando
 if "data" not in st.session_state:
